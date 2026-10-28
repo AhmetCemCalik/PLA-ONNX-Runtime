@@ -1,23 +1,17 @@
+# Virtual environment
+.venv/
 
-# Compiled executables
-main
-*.o
-*.out
+# IDE
+.vscode/
 
-# Generated model and weights
-weights.txt
-perceptron.onnx
+# Build artifacts
+build/
 
 # Python cache
 __pycache__/
 *.pyc
 
-# Python virtual environments
-.venv/
-venv/
-
-# VSCode
-.vscode/
-
 # macOS
 .DS_Store
+
+notes.md

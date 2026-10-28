@@ -27,7 +27,7 @@ int main( int argc, char* argv[] )
 
     pla.train(dataset.getPoints());
     pla.printWeights();
-    std::ofstream out("weights.txt");
+    std::ofstream out("build/weights.txt");
     out << std::setprecision(17);
 
     for (double w : pla.getWeights()) {

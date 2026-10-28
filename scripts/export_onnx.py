@@ -2,7 +2,7 @@ import onnx
 import numpy as np
 from onnx import helper, TensorProto, numpy_helper
 
-weights = np.loadtxt( "weights.txt", dtype=np.float64 )
+weights = np.loadtxt( "build/weights.txt", dtype=np.float64 )
 
 bias = np.array([weights[ 0 ]], dtype=np.float64 )
 W = weights[1:].reshape( -1, 1 )
@@ -47,6 +47,6 @@ model = helper.make_model(
 model.ir_version = 9
 
 onnx.checker.check_model( model )
-onnx.save( model, "perceptron.onnx" )
+onnx.save( model, "build/perceptron.onnx" )
 
 print( "Created perceptron.onnx" )

@@ -14,7 +14,7 @@ if input_dim <= 0:
 
 # Load the ONNX model
 session = ort.InferenceSession(
-    "perceptron.onnx",
+    "build/perceptron.onnx",
     providers=["CPUExecutionProvider"]
 )
 
