@@ -1,3 +1,5 @@
+# Responsible for testing the perceptron.onnx locally
+
 import sys
 import onnxruntime as ort
 import numpy as np

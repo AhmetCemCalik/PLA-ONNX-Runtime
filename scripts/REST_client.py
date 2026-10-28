@@ -1,3 +1,4 @@
+# Sends JSON requests to Datasance inference engine over HTTP
 
 import argparse
 import json

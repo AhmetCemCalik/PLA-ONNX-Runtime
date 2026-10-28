@@ -1,4 +1,5 @@
-
+# Generates random data points with the specified parameters.
+# Places the generated data into a KServe V2 compatible JSON
 import argparse
 import json
 from pathlib import Path

@@ -1,3 +1,4 @@
+# Sends requests to the Datasance inference engine using gRPC
 
 import argparse
 import json

@@ -1,3 +1,5 @@
+# Decodes the binary returned by the inference engine
+# Not necessary with REST and gRPC implementation
 
 import json
 import struct

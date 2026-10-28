@@ -1,3 +1,5 @@
+# Converts the trained PLA weights into perceptron.onnx file
+
 import onnx
 import numpy as np
 from onnx import helper, TensorProto, numpy_helper
